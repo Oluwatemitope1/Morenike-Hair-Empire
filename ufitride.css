@@ -1,0 +1,150 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.nav-menu{
+    justify-content: space-evenly;
+}
+.navbar-brand{
+    font-family: Lucida Handwriting;
+    font-weight: bold;
+    font-size: large;
+}
+.navbar-collapse{
+    /* border: 2px solid red; */
+    justify-content: space-around;
+}
+.mode1{
+    border: none;
+    border-radius: 50px;
+    background: none;
+}
+.mode1:hover{
+    background: none;
+}
+.dark-mode {
+    background-color: rgb(81, 79, 79);
+    color: white;
+}
+.heading{
+    text-align: center;
+    padding-top: 50px;
+    font-family: Ink Free;
+    font-weight: bold;
+    color: brown;
+}
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+/* ========================hero-section========== */
+
+
+.style-box{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 65vh;
+}
+.image-card{
+    width: 30%;
+}
+
+/* =========================about-section============ */
+.about{
+    padding-top: 20px;
+    /* border: 2px solid blue; */
+}
+.about-container{
+    /* border: 2px solid red; */
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.about-image{
+    /* border: 2px solid purple; */
+    width: 40%;
+    box-shadow: 0 5px 9px 0 rgba(0,0,1,0.2);
+}
+.about-text{
+    /* border: 2px solid yellow; */
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.text-container{
+    /* border: 2px solid black; */
+    text-align: justify;
+    
+}
+
+/* =======================service-section============== */
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+/* .service-container{
+    border: 2px solid red;
+    padding: 50px;
+    
+} */
+.service1{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+.service-card{
+    /* border: 2px solid yellow; */
+    width: 30%;
+    align-items: center;
+}
+.card-text{
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 900px){
+   .style-box{
+    flex-direction: column;
+    height: 100%;
+   }
+    .about-container{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        height: 100%;
+    }
+    .image-card{
+        /* border: 2px solid red; */
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .about-image{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .service1{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        height: 100%;
+
+    }
+    .service-card{
+        width: 90%;
+        padding-bottom: 70px;
+        /* max-width: 90%; */
+        margin: 0 auto;
+    }
+   
+    
+
+}
+  
